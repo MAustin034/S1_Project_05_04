@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: mickal austin
+   Date: 10/29  
+
+   Filename:         paper.css
+   Supporting Files: 
+
+*/
+body{
+	background-color: rgba(204,180,145,1);
+	font-family: Verdana, Geneva, sans-serif;
+}
+header img{
+	width: 800px;
+}
+div{
+	background-image: url(parch.jpg);
+	width: 800px;
+	height:100%;
+	position: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0;
+	margin-bottom:0;
+	border: 3px solid black;
+}
+
+
+nav a{
+	text-decoration:none;
+	color: rgba(0,0,0,1);
+	font-weight:bold;
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+section article p{
+	width: 750px;
+	text-align:center;
+}
+
+/*----------------Nav 1--------------------*/
+#nav1 a{
+	color: rgba(0,0,0,1);
+	display:block;
+	text-align:center;
+	padding: 14px 14.07px;
+	background-color: rgba(161,143,117,.5);
+}
+
+#nav1 li{
+	float: left;
+	
+}
+
+#nav1 a:hover{
+	background-color: rgba(230,202,162,.5);
+	color: rgba(255,255,255,1);
+}
+
+/*----------------Nav 2--------------------*/
+#nav2 a{
+	color: rgba(0,0,0,1);
+	display:block;
+	text-align:center;
+	padding: 14px 23.33px;
+	background-color: rgba(102,90,72,.5);
+}
+
+#nav2 li{
+	float: left;
+}
+
+#nav2 a:hover{
+	background-color: rgba(230,202,162,.5);
+	color: rgba(255,255,255,1);
+}
+
+/*----------------Nav 3--------------------*/
+#nav3 a{
+	color: rgba(0,0,0,1);
+	display:block;
+	text-align:center;
+	padding: 14px 43.8031px;
+	background-color: rgba(161,143,117,.5);
+	background-size:100%;
+	margin:0;
+}
+
+#nav3 li{
+	float: left;
+}
+
+#nav3 a:hover{
+	background-color: rgba(230,202,162,.5);
+	color: rgba(255,255,255,1);
+}
+
+/*----------------Nav 4--------------------*/
+#nav4 a{
+	color: rgba(0,0,0,1);
+	display:block;
+	text-align:center;
+	padding: 14px 145px;
+	background-color: rgba(102,90,72,.5);
+}
+
+#nav4 li{
+	float: left;
+}
+
+#nav4 a:hover{
+	background-color: rgba(230,202,162,.5);
+	color: rgba(255,255,255,1);
+}
+
+/*-----------------------Story 1--------------*/
+#story1{
+	margin:0;
+	background-color: rgba(255,255,255,.5);
+	
+}
+
+#story1 h1{
+	color: rgba(161,143,117,1);
+	text-align:left;
+	font-size:30px;
+	border-bottom: 2px solid black;
+	margin-top:250px;
+	padding-bottom:2px;
+}
+
+#story1 p:first-of-type{
+	width: 680px;
+	margin-left:100px;
+	min-width:600px;
+	max-width:800px;
+}
+
+#story1 p{
+	font-size:18px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#story1 p:last-of-type{
+	padding-bottom: 10px;
+}
+
+#story1 img{
+	border-radius: 10%;
+	margin-left: 18px;
+	clear:left;
+	position:absolute;
+}
+
+/*-----------------Story 2-----------------*/
+#story2{
+	margin:0;
+	background-color: rgba(255,255,255,.5);
+}
+
+#story2 h1{
+	color: rgba(161,143,117,1);
+	text-align:left;
+	font-size:30px;
+	border-bottom: 2px solid black;
+	margin-top:50px;
+	padding-bottom:2px;
+}
+
+#story2 p{
+	font-size:18px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: -20px;
+	padding-bottom:10px;
+}
+
+/*---------------------Story 3----------------*/
+#story3{
+	margin:0;
+	background-color: rgba(255,255,255,.5);
+	
+}
+
+#story3 h1{
+	color: rgba(161,143,117,1);
+	text-align:left;
+	font-size:30px;
+	border-bottom: 2px solid black;
+	margin-top:50px;
+	padding-bottom:2px;
+}
+
+#story3 p:first-of-type{
+	margin-top:0px;
+}
+
+#story3 p{
+	width:580px;
+	min-width: 500px;
+	max-width: 800px;
+	font-size:18px;
+	margin-left:195px;
+}
+
+#story3 img{
+	border-radius: 10%;
+	margin-left: 18px;
+	clear:left;
+	position:absolute;
+}
+
+/*----------------------Story 4----------------*/
+#story4{
+	background-color: rgba(255,255,255,.5);
+	margin-top:-18px;
+	padding-top:10px;
+}
+
+#story4 h1{
+	color: rgba(161,143,117,1);
+	text-align:center;
+	font-size:30px;
+	margin-top:50px;
+	
+	padding:0;
+}
+
+#story4 p{
+	font-size:18px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#story4 p:last-of-type{
+	padding-bottom: 10px;
+}
+
+/*-------------Second Nav----------*/
+#secondnav {
+	text-align:center;
+	border-top: 2px solid black;
+	margin-top:-20px;
+}
+
+#secondnav h1{
+	font-size: 30px;
+}
+
+#secondnav li{
+	padding: 15px;
+	background-color: rgba(102,90,72,.5);
+}
+
+#secondnav li:hover{
+	padding: 15px;
+	background-color: rgba(230,202,162,.5);
+}
+
+address{
+	background-image: url("parch2.jpg");
+	border-top: 2px solid black;
+	font-size:20px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align:center;
+	padding: 20px 0;
+}
